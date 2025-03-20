@@ -1,0 +1,30 @@
+Summary of Today’s Work
+Task 1: Producer-Consumer Problem with Pipes
+Blocking pipes mein issue nahi hota—Producer har 1 second mein bhejta, Consumer har 3 seconds mein padhta.
+Task 2: Merge Sort with Multiple Processes
+3 child processes array ka 1/3rd part sort karte the, parent merge karta tha.
+Tu ne kaha sorting nahi chahiye.
+Task 3: Simplified Array Splitting with Pipes
+2 child processes array ka hissa pipe se bhejte the, parent print karta tha.
+Task 4: Chat Application Between Two Processes
+Parent aur child pipes se chat karte the, "bye" pe rukta tha.
+Task 5: Monitor Child Processes with Pipes
+3 child processes banaye, start aur end times pipe se collect kiye, most CPU-bound process bataya.
+Task 6: Random Numbers
+rand() aur <random> se random numbers banaye.
+Task 7: Creation of n*n Matrix
+Dynamic memory se n*n matrix banaya, random numbers se fill kiya.
+Task 8: Matrix Multiplication with Child Processes
+2 n*n matrices banaye, file mein save kiye.
+n child processes banaye—har child ne ek row ka multiplication kiya, result file mein save kiya.
+Task 9 (Current): Matrix Multiplication with n Processes (Custom n Calculation)
+n calculate kiya using random number, roll number, aur conditions.
+2 matrices banaye, file mein save kiye.
+Change: Pointers (int** matrix) ki jagah VLA (int matrix[genNum][genNum]) use kiya kyunki tu ne kaha pointers mushkil hain.
+n child processes banaye, har child ne ek row ka multiplication kiya, result file mein save kiya.
+Parent ne saare results read karke final matrix print kiya.
+Final Notes
+VLA Use Kiya: Pointers hata kar int matrix1[genNum][genNum] use kiya taake simple rahe.
+Matrix Multiplication: Har child ne ek row ka result calculate kiya, file mein save kiya.
+Parent: Saare results ko read karke final matrix print kiya.
+Yaad Rakh: Agar VLA kaam na kare (compiler error de), to bol dena, hum pointers wapas use karenge.
